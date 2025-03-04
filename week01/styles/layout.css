@@ -1,0 +1,56 @@
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header {
+    padding: 1rem;
+    margin: 1rem auto 0;
+    width: 800px;
+    background-color: #3b3a3a;
+    color: whitesmoke;
+    height: 70px;
+    margin-top: 0;
+}
+
+nav {
+    padding: 1rem;
+    margin: 0 auto 0;
+    width: 800px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto 0;
+    width: 52rem;
+    height: 400px;
+}
+
+div {
+    margin: 0 auto 0;
+    width: 800px;
+}
+
+main {
+    background-color: rgb(197, 196, 193);
+}
+
+p {
+    font-size: 18px;
+    padding: 1rem;
+    color: #3b3a3a;
+}
+
+footer {
+    margin: 0 auto 0;
+    width: 52rem;
+    display: grid;
+    justify-content: center;
+    background-color: #3b3a3a;
+    height: 130px;
+    color: whitesmoke;
+}
