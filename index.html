@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Anselem Samuel</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Anselem Samuel landing page.">
+    <meta name="authour" content="Anselem Obianuju Samuel">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Anselem</h1>
+   <header>
+      <h1 class="header">WDD 131: Dynamic Web Fundamentals - Anselem Samuel</h1>
+    <nav>
+        <a href="https://www.linkedin.com/in/anselem-samuel-050b34302/">LinkedIn</a>
+        <a href="https://byupw.instructure.com/.">Canvas</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a>
+        <a href="#">Final Project</a>
+    </nav>
+   </header>
+   <main>
+    <section class="card">
+        <h2 id="about">About Me</h2>
+        <div class="about">
+         <div class="my-about">
+           <p>My name is Anselem Obianuju Samuel and I go by Anselem. I was born in Nigeria and live with my family 
+              in Nigeria. I am currently working on my major in software development at BYU-Idaho via online.
+              My family are my greatest treasure from God and I so much love spending time with them. I also 
+              love traveling and gaining new skills.
+           </p>
+           <img src="images/profile.webp" alt="My picture" width="150" height="150">
+         </div>
+         <h3>Rivers State, Nigeria</h3>
+         <div class="my-country">
+           <figure>
+              <img src="images/nigeria_flag.png" alt="Nigeria Flag" width="150" height="100">
+              <figcaption>Official flag of Nigeria</figcaption>
+           </figure>
+           <p>Nigeria, an African country on the Gulf of Guinea, has many natural landmarks and wildlife reserves. 
+              Protected areas such as Cross River National Park and Yankari National Park have waterfalls, 
+              dense rainforest, savanna and rare primate habitats. One of the most recognizable sites is Zuma Rock, 
+              a 725m-tall monolith outside the capital of Abuja that is pictured on the national currency</p>
+         </div>
+        </div>
+    </section>
+    <section class="card">
+        <h2 id="resources">Web Dev Resources</h2>
+        <div class="resources">
+         <div id="web-resources">
+          <p></p>
+          <ul>
+             <li><a href="https://dev.to/">Dev.to Community </a></li>
+             <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+             <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+             <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+             <li><a href="https://www.udemy.com/?ranMID=39197&ranEAID=M2Fz1xDbBAM&ranSiteID=M2Fz1xDbBAM-UOh6wEQT_dHJBVbXTMmjVA&LSNPUBID=M2Fz1xDbBAM&utm_source=aff-campaign&utm_medium=udemyads&gad_source=1">Udemy</a></li>
+             <li><a href="https://placehold.co/">Image Placeholder</a></li>
+          </ul>
+         </div>
+        </div>
+    </section>
+   </main>
+   <footer>
+    <p>©<span id="currentyear"></span> ❤ Anselem Obianuju Samuel ❤ Nigeria.</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+   </footer>
 </body>
 </html>
