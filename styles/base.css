@@ -149,7 +149,7 @@ figcaption {
 
 #web-resources{
     display: grid;
-    grid-template-rows: .5fr .9fr .258fr;
+    grid-template-rows: .5fr .9fr .257fr;
     border: 4px solid white;
 }
 
