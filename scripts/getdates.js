@@ -8,4 +8,4 @@ currentYear.innerHTML = date.getFullYear();
 
 let lastModif = new Date(document.lastModified);
 let lastModified = document.getElementById("lastModified");
-lastModified.innerHTML = `${lastModif.getMonth()}/${lastModif.getDate()}/${lastModif.getFullYear()}`;
+lastModified.innerHTML = `${lastModif.getMonth()}/${lastModif.getDate()}/${lastModif.getFullYear()}, ${lastModif.toLocaleTimeString()}`;
