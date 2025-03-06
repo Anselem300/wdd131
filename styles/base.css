@@ -33,12 +33,18 @@ nav {
     border-bottom-right-radius: 1rem;
 }
 
+nav a {
+    background-color: whitesmoke;
+    color: black;
+    padding: .2rem;
+    border-radius: .5rem;
+}
+
 nav a:hover {
     /* text-decoration: overline; this is for text decoration too */
     border: .5px solid whitesmoke;
     background-color: whitesmoke;
     border-radius: .5rem;
-    color: black;
     padding: .2rem;
 }
 
