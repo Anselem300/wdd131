@@ -28,16 +28,24 @@ nav {
     font-family: 'Roboto';
     display: flex;
     justify-content: space-around;
+    font-weight: 600;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 nav a:hover {
-    text-decoration: overline;
+    /* text-decoration: overline; this is for text decoration too */
+    border: .5px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: .5rem;
+    color: black;
+    padding: .2rem;
 }
 
 main {
     display: grid;
     margin: .1rem auto 0;
-    max-width: 900px;
+    width: 900px;
     grid-template-columns: 2fr 1fr;
     justify-content: space-between;
 }
@@ -69,9 +77,17 @@ main {
     grid-template-columns: 3fr 1fr;
 }
 
+.my-about img {
+    border-radius: .5rem;
+}
+
 .about p {
-    font-family: 'Roboto';
-    font-weight: 450;
+    font-weight: 500;
+}
+
+#paragraph2 {
+    font-family: 'san-serif';
+    font-weight: 550;
 }
 
 h3 {
@@ -88,6 +104,10 @@ h3 {
     grid-template-columns: .5fr 2fr .5fr;
 }
 
+.my-country img {
+    border-radius: 1rem;
+}
+
 figcaption {
     font-style: inherit;
     padding: 1rem;
@@ -101,24 +121,22 @@ figcaption {
 }
 
 .about {
-    border: 1px solid rgb(194, 190, 190);
+    background-color: whitesmoke;
     padding: .1rem;
     margin-top: 0;
-    border-top: none;
     border-radius: 1rem;
 }
 
 .resources {
     padding: 1rem;
-    border: 1px solid rgb(202, 198, 198);
+    background-color: whitesmoke;
     border-radius: 1rem;
     margin-top: 0;
-    border-top: none;
 }
 
 #web-resources{
     display: grid;
-    grid-template-rows: .65fr 1fr .65fr;
+    grid-template-rows: .58fr 1fr .58fr;
 }
 
 ul {
@@ -132,21 +150,33 @@ li {
 }
 
 li a {
-    color: #41308f;
+    color: rgb(123, 123, 155)f;
+    font-weight: 600;
+}
+
+li a:hover {
+    color: blue;
 }
 
 footer {
     margin: 1rem auto 0;
     width: 59rem;
     background-color: #41308f;
-    height: 85px;
+    height: 86px;
     display: grid;
     justify-content: center;
     padding: 0;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 footer p {
     color: whitesmoke;
 }
 
-
+#mode {
+    font-style: italic;
+    font-weight: 350;
+    color: gainsboro;
+    font: bold;
+}

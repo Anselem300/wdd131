@@ -8,4 +8,4 @@ currentYear.innerHTML = date.getFullYear();
 
 let lastModif = new Date(document.lastModified);
 let lastModified = document.getElementById("lastModified");
-lastModified.innerHTML = lastModif;
+lastModified.innerHTML = `${lastModif.getMonth()}/${lastModif.getDate()}/${lastModif.getFullYear()}`;
