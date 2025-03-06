@@ -81,7 +81,7 @@ main {
 .my-about {
     padding: .6rem;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr .9fr;
     margin: 0;
 }
 
