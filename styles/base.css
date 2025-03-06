@@ -80,11 +80,9 @@ main {
 
 .my-about {
     padding: .6rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     margin: 0;
-}
-
-.my-about img {
-    float: right;
 }
 
 .my-about img {
