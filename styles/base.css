@@ -151,6 +151,7 @@ figcaption {
     display: grid;
     grid-template-rows: .5fr .9fr .257fr;
     border: 4px solid white;
+    padding: 1rem;
 }
 
 #web-resources:hover {
