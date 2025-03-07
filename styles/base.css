@@ -9,7 +9,8 @@ nav a {
 
 .header {
     padding: 1rem;
-   
+    margin: 0 auto 0;
+    width: 900px;
     background-color: #41308f;
     display: grid;
     justify-content: center;
@@ -21,7 +22,8 @@ nav a {
 
 nav {
     padding: 1rem;
-    
+    margin: 0 auto 0;
+    width: 900px;
     background-color: rgb(49, 47, 47);
     font-family: 'Roboto';
     display: flex;
@@ -49,7 +51,7 @@ nav a:hover {
 main {
     display: grid;
     margin: .1rem auto 0;
-    max-width: 900px;
+    width: 900px;
     grid-template-columns: 2fr 1fr;
     justify-content: space-between;
     gap: 1px;
@@ -202,7 +204,8 @@ li a:hover {
 }
 
 footer {
-  
+    margin: 1rem auto 0;
+    width: 59rem;
     background-color: #41308f;
     height: 86px;
     display: grid;
