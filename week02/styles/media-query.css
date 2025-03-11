@@ -9,6 +9,7 @@ header, main, footer {
     padding: 1rem;
     background-color: #bfd9f7;
     border-radius: .5rem;
+    text-align: center;
 }
 
 header {
