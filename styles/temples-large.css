@@ -1,7 +1,6 @@
 @media screen and (min-width: 500px)
 {
-    .navbar {
-        display: grid;
+    .navbar { 
         grid-template-columns: 1.1fr 1.5fr;
         justify-content: space-around;
         align-items: center;
