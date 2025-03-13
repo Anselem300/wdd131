@@ -1,0 +1,62 @@
+@media screen and (min-width: 500px)
+{
+    .navbar {
+        display: grid;
+        grid-template-columns: 1.1fr 1.5fr;
+        justify-content: space-around;
+        align-items: center;
+        padding: .7rem;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    header, main, footer {
+        max-width: 1000px;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        width: auto;
+        position: static;
+        background-color: rgb(30, 30, 43);
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .active::before {
+        content: none;
+    }
+
+    .navigation a:hover {
+        padding: .036rem;
+    }
+
+    .temple-image {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        justify-content: center;
+        padding-right: 2rem;
+        max-width: 850px;
+        padding-bottom: 1rem;
+    }
+
+    .temple-image figcaption {
+        font-weight: 400;
+        align-items: center;
+        font-size: 1rem;
+    }
+    
+    img {
+        width: 100%;
+    }
+
+    main {
+        place-items: center;
+    }
+
+}

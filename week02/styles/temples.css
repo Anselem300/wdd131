@@ -1,0 +1,142 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1.5fr .3fr;
+    margin: 0 auto;
+    background-color: rgb(30, 30, 43);
+    color: whitesmoke;
+}
+
+.header {
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.hamburger {
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
+}
+
+.navigation {
+    font-size: 1.5rem;
+    border: 0;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    background-color: black;
+    width: 0;
+}
+
+/* #menu::after {
+    content: '\2630';
+} */
+
+/* #menu.open::after { 
+    content: '❎';
+} This commented field is for the hamburger.*/ 
+
+.navigation li {
+    padding: 1rem;
+    text-align: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+}
+
+.navigation.open {
+    display: flex;
+    width: 19rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a:hover {
+    background-color: whitesmoke;
+    color: black;
+    padding: .029rem;
+    border-radius: .1rem;
+}
+
+.active::before {
+    content: "📖";
+}
+
+header, main {
+   margin: 0 auto 0; 
+   max-width: 640px;
+}
+
+footer{
+    margin: 1rem auto;
+    max-width: 640px;
+}
+
+.home {
+   text-align: center;
+   margin: 1rem;
+   padding: 1rem;
+   font-weight: 600;
+   font-size: 1.5rem;
+}
+
+.temple-image {
+    border: 1px solid whitesmoke;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    max-width: 640px;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    grid-template-columns: 1fr;
+    padding-bottom: 1rem;
+}
+
+img {
+    width: 91%;
+    padding: 1rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.temple-image figcaption {
+    font-style: italic;
+    text-align: center;
+    color: rgb(16, 16, 29);
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+
+footer {
+    background-color: rgb(30, 30, 43);
+    color: whitesmoke;
+    text-align: center;
+    height: 50px;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    margin-bottom: 0;
+}
+
+footer p {
+    font-weight: 550;
+}
+
