@@ -55,7 +55,6 @@
     
     img {
         width: 100%;
-        box-shadow: none;
     }
 
     img:hover {
@@ -64,6 +63,10 @@
 
     main {
         place-items: center;
+    }
+
+    figure {
+        box-shadow: none;
     }
 
 }

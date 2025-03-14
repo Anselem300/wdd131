@@ -111,6 +111,7 @@ footer{
     border-radius: 1rem;
     grid-template-columns: 1fr;
     padding-bottom: 1rem;
+    gap: 10px;
 }
 
 img {
@@ -118,7 +119,12 @@ img {
     padding: 1rem;
     height: auto;
     border-radius: 1rem;
-    box-shadow: 0 0 15px gray;
+    
+}
+
+figure {
+    box-shadow: 0 0 15px grey;
+    border-radius: 1rem;
 }
 
 .temple-image figcaption {
