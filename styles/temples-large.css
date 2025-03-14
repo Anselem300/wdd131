@@ -36,11 +36,15 @@
 
     .temple-image {
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
+        gap: 8px;
         justify-content: center;
         padding-right: 2rem;
         max-width: 850px;
         padding-bottom: 1rem;
+    }
+
+    .temple-image {
+        box-shadow: 0 0 30px grey;
     }
 
     .temple-image figcaption {
@@ -51,6 +55,11 @@
     
     img {
         width: 100%;
+        box-shadow: none;
+    }
+
+    img:hover {
+        box-shadow: 0 0 15px gray;
     }
 
     main {
