@@ -17,4 +17,4 @@ currentYear.textContent = date.getFullYear();
 
 let lastModif = new Date(document.lastModified);
 let lastModified = document.getElementById("lastModified");
-lastModified.textContent = `${lastModif.getMonth()}/${lastModif.getDay()}/${lastModif.getFullYear()}, ${lastModif.toLocaleTimeString()}`;
+lastModified.textContent = `${lastModif.getMonth()+1}/${lastModif.getDate()}/${lastModif.getFullYear()}, ${lastModif.toLocaleTimeString()}`;

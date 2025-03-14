@@ -69,4 +69,8 @@
         box-shadow: none;
     }
 
+    footer {
+        height: 50px;
+    }
+
 }
