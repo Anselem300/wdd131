@@ -125,6 +125,7 @@ img {
 figure {
     box-shadow: 0 0 15px grey;
     border-radius: 1rem;
+    padding: .5rem;
 }
 
 .temple-image figcaption {
