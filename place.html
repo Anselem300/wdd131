@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This a web page for place explored">
+    <meta name="author" content="Anselem Obianuju Samuel">
+    <title>WDD 131 | Place</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    <main>
+        <div class="image-container">
+          <img class="image" src="images/hero-img.webp" alt="Little Forest" width="500" height="250">
+        </div>
+        <section>
+            <div id="data">
+              <h2 class="data">Data</h2>
+            </div>
+            <div class="tab">
+              <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="row">Area:</th>
+                        <td>923,768 sq Km</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Population:</th>
+                        <td>236,058,232</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Capital:</th>
+                        <td>Abuja</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Languages:</th>
+                        <td>Yourba, Hausa, Igbo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Currency:</th>
+                        <td>Naira</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Timezone:</th>
+                        <td>WAT (GMT+1)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Calling Code:</th>
+                        <td>+234</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Internet TLD:</th>
+                        <td>.ng</td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+        </section>
+        <section>
+            <div class="Temperature">
+              <h2 class="weather">Weather</h2>
+              <img class="weather-img" src="images/weather.svg" alt="Weather Image" width="100" height="100">
+            </div>
+            <div class="scope">
+              <table class="windChill">
+                <tbody>
+                    <tr>
+                        <th scope="row">Temperature:</th>
+                        <td><span id="temperature"></span>℃</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Conditions:</th>
+                        <td>Mostly Cloudy</td>
+                    </tr>
+                    <tr>
+                        <th>Wind:</th>
+                        <td><span id="windSpeed"></span> km/h</td>
+                    </tr>
+                    <tr>
+                        <th>Wind Chill:</th>
+                        <td><span id="windChill"></span></td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span>🤍 Anselem Obianuju Samuel 🤍 Nigeria.</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

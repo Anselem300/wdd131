@@ -1,0 +1,89 @@
+@media  screen and (min-width: 500px) {
+
+    :root {
+        --color: gainsboro;
+    }
+
+    main {
+        max-width: 1000px;
+    }
+
+    header {
+        max-width: 1000px;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    .image-container {
+        max-width: 1000px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .image {
+        display: block;
+    }
+
+    footer {
+        max-width: 1000px;
+    }
+
+    #data {
+        background-color: var(--color);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 265rem;
+        position: absolute;
+        top: 42%;
+        left: 14.5%;
+        z-index: 2;
+    }
+
+    .data {
+        font-size: 1.5rem;
+    }
+
+    .tab, .scope {
+        max-width: 265px;
+    }
+
+    .Temperature {
+        background-color: var(--color);
+        max-width: 250px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        max-height: 80px;
+        position: absolute;
+        top: 73%;
+        left: 69%;
+        z-index: 2;
+    }
+
+    .weather {
+        font-size: 1.5rem;
+    }
+
+    .weather-img {
+        font-size: 1.5rem;
+    }
+
+    th, td {
+        font-size: .9rem;
+    }
+
+    .tab {
+        position: absolute;
+        top: 40%;
+        margin-left: 2rem;
+        padding-top: 4rem;
+        border-bottom: none;
+    }
+
+    .scope {
+        position: absolute;
+        top: 71%;
+        left: 70%;
+        padding-top: 7rem;
+    }
+}

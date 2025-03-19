@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anselem Obianuju Samuel">
+    <meta name="description" content="This is a learning activity on responsive image.">
+    <title>Responsive Image</title>
+    <link rel="stylesheet" href="styles/responsive-image.css">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/aba_nigeria_temple_large.webp" media="(min-width: 1000px)">
+                <source srcset="images/aba_nigeria_temple_medium.webp" media="(min-width: 500px)">
+                <img src="images/aba_nigeria_temple_small.webp" alt="Aba Nigeria Temple" width="500" height="250">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>
