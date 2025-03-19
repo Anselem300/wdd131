@@ -24,8 +24,12 @@
         display: block;
     }
 
+    .weather-img::before {
+        display: none;
+    }
+
     .weather-img::after {
-        font-size: 1rem;
+        content: '⛅';
     }
 
     footer {
