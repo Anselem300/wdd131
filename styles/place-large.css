@@ -24,6 +24,10 @@
         display: block;
     }
 
+    .weather-img::after {
+        font-size: 1rem;
+    }
+
     footer {
         max-width: 1000px;
     }
@@ -61,10 +65,6 @@
     }
 
     .weather {
-        font-size: 1.5rem;
-    }
-
-    .weather-img {
         font-size: 1.5rem;
     }
 
