@@ -1,0 +1,45 @@
+:root {
+    --background-color: black;
+    --second-color: rgb(39, 38, 38);
+    --color: rgb(245, 231, 231);
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    font-family:'Gill Sans';
+    
+}
+
+th, td {
+    padding: .7rem;
+    border: 1px solid var(--background-color);
+}
+
+tr:first-child th, .empty {
+    background-color: var(--background-color);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-family: Arial;
+}
+
+th {
+    background-color: var(--second-color);
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans';
+}
+
+td {
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: var(--color);
+}

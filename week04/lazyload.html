@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anselem Obianuju Samuel">
+    <meta name="description" content="This is a learning activity on Lazyloading">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <title>WDD 131 | Lazyloading</title>
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>WDD 131 | Lazy Loading Exercise</h1>
+    </header>
+    <main>
+        <picture>
+          <img src="../images/baton-rouge-louisiana-temple.jpeg" alt="Lousiana Temple" loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+          <img src="../images/aba-nigeria-temple.jpg" alt="Aba Nigeria Temple" loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+          <img src="../images/accra-ghana-temple.jpg" alt="Accra Temple" loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+          <img src="../images/arequipa-peru-temple.jpeg" alt="Peru Temple" loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+          <img src="../images/asuncion-paraguay-temple.jpeg" alt="Asuncion Temple" loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+          <img src="../images/atlanta-temple.jpg" alt="Atlanta Temple" loading="lazy" width="400px" height="600px">
+        </picture>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span>|All Rights Reserved</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
