@@ -126,7 +126,7 @@ footer{
     padding: 1rem;
     height: auto;
     border-radius: 1rem;
-    animation: fade 10s;
+    animation: fade 4s;
 }
 
 @keyframes fade {
