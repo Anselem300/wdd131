@@ -1,0 +1,23 @@
+:root {
+    --color1: whitesmoke;
+    --color2: black;
+    --color3: blue;
+}
+
+*{
+    margin: 1rem auto 0;
+    max-width: 900px;
+    background-color: var(--color1);
+    padding: 1rem;
+    margin-top: 0;
+    font-family: 'Roboto', 'Winky Sans';
+    text-align: center;
+}
+
+.domain {
+    display: block;
+    position: absolute;
+    top: 65.5%;
+    left: 57.4%;
+    color: var(--color3);
+}
