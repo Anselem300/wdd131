@@ -34,16 +34,12 @@ const products = [
     }
   ];
 
-  document.addEventListener("DOMContentLoaded", function (){
     const getElement = document.getElementById("products");
     getElement.innerHTML = `<option value="" disabled selected>Select a Product</option>`;
 
     products.forEach(product => {
         const option = document.createElement("option");
         option.value = product.id;
-        option.textContent = product.name;
-        getElement.appendChild(option)
+        option.textContent = `${product.name} (⭐${product.averagerating})`;
+        getElement.appendChild(option);
     });
-
-  });
-

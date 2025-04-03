@@ -94,6 +94,11 @@ textarea
     height: 18px;
 }
 
+option {
+    background-color: var(--color2);
+    color: var(--color);
+}
+
 .review {
     margin-top: 1rem;
 }
