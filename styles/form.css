@@ -40,7 +40,7 @@ header {
 
 .rating {
     display: grid;
-    grid-template-columns: .6fr .56fr .6fr 1fr 1fr;
+    grid-template-columns: .55fr .5fr .56fr 1fr 1fr;
     gap: 5px;
     font-size: .8rem;
 }
