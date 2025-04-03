@@ -40,7 +40,7 @@ header {
 
 .rating {
     display: grid;
-    grid-template-columns: .55fr .5fr .56fr 1fr 1fr;
+    grid-template-columns: .55fr .5fr .58fr 1fr 1fr;
     gap: 5px;
     font-size: .8rem;
 }
@@ -51,7 +51,7 @@ header {
 
 .stars {
     display: grid;
-    grid-template-columns: .5fr .6fr .5fr 1fr 1fr;
+    grid-template-columns: .5fr .6fr .58fr 1fr 1fr;
     margin-bottom: 1.5rem;
     margin-top: 0;
 }

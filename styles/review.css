@@ -11,16 +11,13 @@
     --color4: navy;
 }
 
-header, footer {
+header{
     background-color: var(--color3);
     color: var(--color);
     text-align: center;
     height: 3rem;
     padding: 1rem;
     margin-bottom: 1rem;
-}
-
-header {
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -51,6 +48,11 @@ div {
 }
 
 footer {
+    background-color: var(--color3);
+    color: var(--color);
+    text-align: center;
+    height: 3rem;
+    padding: 1rem;
     margin-bottom: 0;
     height: 4rem;
     border-top-right-radius: 1rem;
