@@ -1,7 +1,7 @@
 *{
     font-family: "Roboto", "Winky Sans";
     margin: 0% auto;
-    max-width: 700px;
+    max-width: 640px;
 }
 
 :root{
@@ -40,7 +40,7 @@ header {
 
 .rating {
     display: grid;
-    grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
+    grid-template-columns: .5fr .6fr .5fr 1fr 1fr;
 }
 
 .rating p {
@@ -50,7 +50,7 @@ header {
 
 .stars {
     display: grid;
-    grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
+    grid-template-columns: .5fr .6fr .5fr 1fr 1fr;
     margin-bottom: 1.5rem;
     margin-top: 0;
 }
