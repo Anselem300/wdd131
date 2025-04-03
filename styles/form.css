@@ -80,14 +80,13 @@ textarea
 }
 
 .review-features p {
-    font-weight: 600;
-    margin-top: 1rem;
+    font-weight: 450;
     margin-bottom: .2rem;
 }
 
-.review-features label {
-    font-weight: 450;
-    margin-bottom: .5rem;
+#paragraph {
+    margin-top: 1rem;
+    font-weight: 600;
 }
 
 .review-features input {

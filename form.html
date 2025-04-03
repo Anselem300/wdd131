@@ -18,7 +18,7 @@
         <h1>Product Review</h1>
     </header>
     <form method="get" action="review.html" class="product-review">
-        <label for="products">Product Name</label>
+        <label for="products">Product Name (required)</label>
             <select id="products" name="productName" required>
                 <option value="" disabled selected>Select a Product</option>
                 <option value="" >.</option>
@@ -27,7 +27,7 @@
                 <option value="" >.</option>
                 <option value="" >.</option>
             </select>
-        <p id="overall">Overall Rating</p>
+        <p id="overall">Overall Rating (required)</p>
         <div class="rating"><p>&#9733;</p>  <p>&#9733;&#9733;</p>  <p>&#9733;&#9733;&#9733;</p>  <p>&#9733;&#9733;&#9733;&#9733;</p>  <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p></div>
         <div class="stars">
            <input type="radio" id="star1" name="rating" required>
@@ -36,13 +36,13 @@
            <input type="radio" id="star4" name="rating" required>
            <input type="radio" id="star5" name="rating" required>
         </div>
-        <label for="dateInstalled">Date of Installation<input type="date" id="dateInstalled" name="installation" required></label>
+        <label for="dateInstalled">Date of Installation (required)<input type="date" id="dateInstalled" name="installation" required></label>
         <div class="review-features">
-            <p>Which features did you find useful in the product?<br>(Check all that apply)</p>
-            <label for="feature1"><input type="checkbox" id="feature1" name="useful-feature" value="Durability"> Durability</label>
-            <label for="feature2"><input type="checkbox" id="feature2" name="useful-feature" value="Ease of Use"> Ease of Use</label>
-            <label for="feature3"><input type="checkbox" id="feature3" name="useful-feature" value="Performance"> Performance</label>
-            <label for="feature4"><input type="checkbox" id="feature4" name="useful-feature" value="Performance"> Design</label>
+            <p id="paragraph">Which features did you find useful in the product?<br>(Check all that apply)</p>
+            <p><input type="checkbox" id="feature1" name="useful-feature" value="Durability"> Durability</p>
+            <p><input type="checkbox" id="feature2" name="useful-feature" value="Ease of Use"> Ease of Use</p>
+            <p><input type="checkbox" id="feature3" name="useful-feature" value="Performance"> Performance</p>
+            <p><input type="checkbox" id="feature4" name="useful-feature" value="Performance"> Design</p>
         </div>
         <label for="review" class="review">Written Review(optional)</label>
         <textarea id="review" name="product-review" rows="4" cols="50"></textarea>
