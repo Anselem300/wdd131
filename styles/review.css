@@ -20,8 +20,13 @@ header, footer {
     margin-bottom: 1rem;
 }
 
+header {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
 main{
-    padding: 10.3rem;
+    padding: 6.3rem;
 }
 
 .checked {
@@ -44,4 +49,18 @@ main{
 
 footer {
     margin-bottom: 0;
+    height: 4rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+@media screen and (min-width: 500px)
+{
+    main{
+    padding: 10.3rem;
+    }
+
+    footer {
+        height: 3rem;
+    }
 }

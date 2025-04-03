@@ -2,6 +2,18 @@
     :root{
         --star-color: rgb(105, 105, 9);
     }
+
+    .rating {
+        display: grid;
+        grid-template-columns: .5fr .59fr .6fr 1fr 1fr;
+        gap: 5px;
+    }
+
+    .stars {
+        display: grid;
+        grid-template-columns: .49fr .59fr .5fr 1fr 1fr;
+    }
+    
     
     .rating p {
         font-size: 1.9rem;
