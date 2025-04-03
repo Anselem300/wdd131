@@ -1,0 +1,118 @@
+*{
+    font-family: "Roboto", "Winky Sans";
+    margin: 0% auto;
+    max-width: 700px;
+}
+
+:root{
+    --color: whitesmoke;
+    --color2: grey;
+    --color3: black;
+}
+
+header, footer {
+    background-color: var(--color3);
+    color: var(--color);
+    text-align: center;
+    height: 3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-review {
+    padding: 1rem;
+    background-color: var(--color);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 5px var(--color2);
+}
+
+.product-review label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.rating {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
+}
+
+.rating p {
+    font-size: 1.2rem;
+    color: var(--color3);
+}
+
+.stars {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+}
+
+.stars input{
+    width: 40px;
+    height: 18px;
+}
+
+input[type="text"],
+select,
+input[type="date"]
+{
+    width: 100%;
+    height: 44px;
+    border: 0;
+    box-shadow: 0 0 2px var(--color2);
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-family: "Winky Sans";
+}
+
+#overall {
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.review-features p {
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: .2rem;
+}
+
+.review-features label {
+    font-weight: 450;
+    margin-bottom: .5rem;
+}
+
+.review-features input {
+    width: 25px;
+    height: 18px;
+}
+
+.review {
+    margin-top: 1rem;
+}
+
+#review {
+    height: 8rem;
+}
+
+.user-name {
+    margin-top: 1.2rem;
+}
+
+input[type="submit"]{
+    display: block;
+    margin-top: 1.3rem;
+    width: 100%;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: 0;
+    box-shadow: 1px 1px 5px var(--color2);
+    border-radius: 1rem;
+}
+
+footer {
+    margin-bottom: 0;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anselem Obianuju Samuel">
+    <meta name="description" content="This is a learning assignment on good form design principles">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <title>WDD 131 | Product Review Form</title>
+    <script src="scripts/form.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <form method="get" action="review.html" class="product-review">
+        <label for="products">Product Name</label>
+            <select id="products" name="productName" required>
+                <option value="" disabled selected>Select a Product</option>
+                <option value="" label="Select an Option"></option>
+                <option value="" label="Select an Option"></option>
+                <option value="" label="Select an Option"></option>
+                <option value="" label="Select an Option"></option>
+                <option value="" label="Select an Option"></option>
+                <option value="" label="Select an Option"></option>
+                <option value="" label="Select an Option"></option>
+                <option value="" label="Select an Option"></option>
+            </select>
+        <p id="overall">Overall Rating</p>
+        <div class="rating"><p>&#9733;</p>  <p>&#9733;&#9733;</p>  <p>&#9733;&#9733;&#9733;</p>  <p>&#9733;&#9733;&#9733;&#9733;</p>  <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p></div>
+        <div class="stars">
+           <input type="radio" id="star1" name="rating" required>
+           <input type="radio" id="star2" name="rating" required>
+           <input type="radio" id="star3" name="rating" required>
+           <input type="radio" id="star4" name="rating" required>
+           <input type="radio" id="star5" name="rating" required>
+        </div>
+        <label for="dateInstalled">Date of Installation<input type="date" id="dateInstalled" name="installation" required></label>
+        <div class="review-features">
+            <p>Which features did you find useful in the product?<br>(Check all that apply)</p>
+            <label for="feature1"><input type="checkbox" id="feature1" name="useful-feature" value="Durability"> Durability</label>
+            <label for="feature2"><input type="checkbox" id="feature2" name="useful-feature" value="Ease of Use"> Ease of Use</label>
+            <label for="feature3"><input type="checkbox" id="feature3" name="useful-feature" value="Performance"> Performance</label>
+            <label for="feature4"><input type="checkbox" id="feature4" name="useful-feature" value="Performance"> Design</label>
+        </div>
+        <label for="review" class="review">Written Review(optional)</label>
+        <input type="text" id="review" name="product-review">
+        <label for="user-name" class="user-name">User Name(optional)</label>
+        <input type="text" id="user-name" name="name">
+        <input type="submit" value="Send Review">
+    </form>
+    <footer>
+        <p>©<span id="currentyear"></span> ❤ Anselem Obianuju Samuel ❤ Nigeria.</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    font-family: "Roboto", "Winky Sans";
+    margin: 0% auto;
+    max-width: 700px;
+}
+
+:root{
+    --color: whitesmoke;
+    --color2: green;
+    --color3: black;
+    --color4: navy;
+}
+
+header, footer {
+    background-color: var(--color3);
+    color: var(--color);
+    text-align: center;
+    height: 3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+main{
+    padding: 10.3rem;
+}
+
+.checked {
+    font-size: 3rem;
+    color: var(--color2);
+    text-align: center;
+}
+
+.message {
+    font-weight: 500;
+    text-align: center;
+}
+
+.review-count {
+    margin-top: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--color4);
+}
+
+footer {
+    margin-bottom: 0;
+}

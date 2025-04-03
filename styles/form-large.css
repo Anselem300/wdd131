@@ -1,0 +1,10 @@
+@media screen and (min-width: 500px){
+    :root{
+        --star-color: rgb(105, 105, 9);
+    }
+    
+    .rating p {
+        font-size: 1.9rem;
+        color: var(--star-color);
+    }
+}
