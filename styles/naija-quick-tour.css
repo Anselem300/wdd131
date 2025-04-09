@@ -1,0 +1,339 @@
+:root {
+    --color1: black;
+    --color2: whitesmoke;
+    --color3: rgb(230, 230, 182);
+    --color4: grey;
+    --color5: rgb(15, 221, 15);
+}
+
+* {
+    font-family: 'Roboto', 'Winky Sans';
+    margin: 0;
+}
+
+header {
+    max-width: 700px;
+    margin: 0 auto 0;
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 1rem;
+}
+
+.navbar {
+    margin: 0 auto;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .5rem 1rem;
+}
+
+.head {
+    font-family: 'Winky Sans';
+    font-size: 1.5rem;
+    color: var(--color3);
+    margin-left: .5rem;
+}
+
+.navbar img {
+    width: auto;
+    height: 50px;
+    border: 3px solid var(--color2);
+    box-shadow: 1px 1px 5px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-family: 'Winky Sans';
+    font-size: 1.3rem;
+    color: var(--color2);
+}
+
+.navigation li a:hover {
+    background-color: var(--color2);
+    color: var(--color1);
+    border-radius: .2rem;
+}
+
+.Welcome {
+    border-top: 2px solid var(--color1);
+    max-width: 700px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: var(--color3);
+    border-radius: .5rem;
+}
+
+.Welcome h3 {
+    text-align: center;
+    font-family: "Roboto";
+    margin-bottom: .5rem;
+}
+
+.Welcome p {
+    padding: 1rem;
+    padding-top: 0;
+    font-family: "Winky Sans";
+    font-size: 1rem;
+}
+
+.explore {
+    margin: .5rem auto;
+    max-width: 700px;
+    background-color: var(--color2);
+    padding: 1rem;
+    border-bottom: 2px solid var(--color1);
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+
+.explore h2 {
+    margin-bottom: .8rem;
+    text-align: center;
+    font-family: "Winky Sans";
+}
+
+#explore-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    animation: scroll-left 20s linear infinite;
+    will-change: transform;
+}
+
+#explore-container figure {
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+#explore-viewmore{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#explore-viewmore a {
+    text-decoration: none;
+    transition: color 0.3s;
+    background-color: var(--color1);
+    padding: .3rem;
+    color: var(--color2);
+    border-radius: .3rem;
+    font-family: 'Winky Sans';
+}
+
+#explore-container img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee-wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.about {
+    max-width: 700px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.about p {
+    text-align: center;
+    font-family: 'Winky Sans';
+}
+
+#paragraph {
+    margin-top: 1rem;
+}
+
+#paragraph a{
+    text-decoration: none;
+    background-color: var(--color3);
+    color: var(--color1);
+    padding: .35rem;
+    border-radius: .3rem;
+    font-family: 'Winky Sans';
+    font-size: 1.2rem;
+}
+
+footer {
+    max-width: 700px;
+    margin: 1rem auto;
+    text-align: center;
+    display: flex;
+    background-color: var(--color1);
+    color: var(--color2);
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    margin-bottom: 0;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+#best-place img {
+    width: 100%;
+    height: 280px;
+    border: 2px solid var(--color3);
+    box-shadow: 1px 1px 5px var(--color4);
+}
+
+#best-place p {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1.5px dotted var(--color1);
+    margin-bottom: 1rem;
+}
+
+#best-place figcaption {
+    text-align: center;
+}
+
+.about img {
+    display: block;
+    margin: .5rem auto;
+}
+
+form {
+    max-width: 700px;
+    margin: .5rem auto;
+    background-color: var(--color3);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+form h4 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.Subscribe label {
+    display: block;
+    font-family: "Winky Sans";
+    font-size: 1.1rem;
+}
+
+input[type="email"],
+select {
+    width: 100%;
+    height: 44px;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    border: 0;
+    box-shadow: 1px 1px 5px var(--color4);
+    font-size: 1rem;
+}
+
+.checkbox input {
+    width: 25px;
+    height: 18px;
+}
+
+button {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px var(--color4);
+}
+
+button:hover {
+    background-color: var(--color3);
+}
+
+.newsletter-subscription {
+    background-color: var(--color3);
+    padding: 10rem;
+    margin-bottom: 0;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.newsletter-subscription p {
+    text-align: center;
+    font-family: "Winky Sans";
+}
+
+.checked {
+    font-size: 2rem;
+    color: var(--color5);
+}
+
+.message {
+    font-size: 1.2rem;
+}
+
+.information {
+    display: inline;
+    padding: 1rem;
+}
+
+.information th {
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Winky Sans";
+}
+
+.information td {
+    font-size: 1rem;
+    font-family: "Winky Sans";
+}
+
+.president img {
+    width: 100%;
+    height: 280px;
+    border: 2px solid var(--color3);
+    box-shadow: 1px 1px 5px var(--color4);
+}
+
+.president figcaption {
+    text-align: center;
+    font-style: italic;
+    font-family: "Roboto";
+}
+
+#visit-count {
+    margin-top: 1rem;
+    background-color: var(--color3);
+    padding: .8rem;
+    border-radius: 1rem;
+    font-weight: 600;
+}
