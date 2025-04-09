@@ -46,8 +46,8 @@ header {
 .hamburger {
     display: none;
     font-size: 2rem;
-    cursor: pointer;
-    margin-left: auto;
+    cursor: pointer;   
+    margin-right: 10px;
 }
 
 .navigation {
