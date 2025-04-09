@@ -19,22 +19,22 @@ const explore = [
     {
         imageName: "Local Street in Lagos",
         alt: "Local Street",
-        imageUrl: "./images/nigeria_explore1.jpeg",
+        imageUrl: "images/nigeria_explore1.jpeg",
     },
     {
         imageName: "Abuja: Capital of Nigeria",
         alt: "Abuja",
-        imageUrl: "./images/nigeria_explore2.jpeg",
+        imageUrl: "images/nigeria_explore2.jpeg",
     },
     {
         imageName: "Victoria Island Lagos",
         alt: "Victoria Island",
-        imageUrl: "./images/nigeria_explore3.jpeg",
+        imageUrl: "images/nigeria_explore3.jpeg",
     },
     {
         imageName: "Lagos Terrain",
         alt: "Lagos",
-        imageUrl: "./images/nigeria_explore4.jpeg",
+        imageUrl: "images/nigeria_explore4.jpeg",
     },
 ];
 
