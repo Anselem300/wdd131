@@ -305,7 +305,7 @@ button:hover {
 }
 
 .information {
-    display: inline;
+    display: block;
     padding: 1rem;
 }
 
