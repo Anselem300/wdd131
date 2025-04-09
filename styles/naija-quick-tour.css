@@ -202,6 +202,7 @@ footer {
     margin-bottom: 0;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
+    font-family: "Winky Sans";
 }
 
 #best-place img {
@@ -338,4 +339,14 @@ button:hover {
     padding: .8rem;
     border-radius: 1rem;
     font-weight: 600;
+}
+
+footer img {
+    border: 2px solid var(--color2);
+    box-shadow: 1px 1px 5px;
+}
+
+footer figcaption {
+    font-size: .8rem;
+    font-family: "Winky Sans";
 }
