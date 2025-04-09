@@ -211,7 +211,8 @@ footer {
     box-shadow: 1px 1px 5px var(--color4);
 }
 
-#best-place p {
+.first-paragraph, .second-paragraph,
+.third-paragraph, .fourth-paragraph {
     padding: 1rem;
     text-align: center;
     border-bottom: 1.5px dotted var(--color1);
