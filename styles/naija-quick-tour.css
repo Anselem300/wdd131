@@ -220,6 +220,10 @@ footer {
     margin-bottom: 1rem;
 }
 
+.last-paragraph {
+    margin-top: 1rem;
+}
+
 #best-place figcaption {
     text-align: center;
     font-weight: 600;
