@@ -53,7 +53,7 @@
 
     #explore-container figure {
         flex: 0 0 auto;
-        width: 200px;
+        width: 190px;
         text-align: center;
     }
 
@@ -62,7 +62,7 @@
             transform: translateX(40%);
         }
         100% {
-            transform: translateX(-40%);
+            transform: translateX(-50%);
         }
     }
 
