@@ -71,6 +71,7 @@
         background-color: var(--color1);
         padding: .36rem;
         border-radius: .3rem;
+        width: 100%;
     }
     
     .Go-Back a {
