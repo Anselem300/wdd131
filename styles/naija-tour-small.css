@@ -50,4 +50,19 @@
         display: grid;
         justify-content: center;
     }
+
+    #explore-container figure {
+        flex: 0 0 auto;
+        width: 200px;
+        text-align: center;
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(40%);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
 }
