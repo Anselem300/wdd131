@@ -62,7 +62,21 @@
             transform: translateX(40%);
         }
         100% {
-            transform: translateX(-50%);
+            transform: translateX(-40%);
         }
+    }
+
+    .Go-Back {
+        margin-top: 1rem;
+        background-color: var(--color1);
+        padding: .36rem;
+        border-radius: .3rem;
+    }
+    
+    .Go-Back a {
+        text-decoration: none;
+        color: var(--color2);
+        font-family: "Roboto";
+        font-weight: 500;
     }
 }
